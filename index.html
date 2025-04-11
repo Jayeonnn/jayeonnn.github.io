@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Athaa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>Jawa Terkini</h1>
+            <p>Berita di Jawa terupdate bjirr🔥</p>
+        </div>
+    </header>
+    
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="tech.html">Teknologi</a></li>
+            <li><a href="sports.html">Olahraga</a></li>
+            <li><a href="entertainment.html">Hiburan</a></li>
+        </ul>
+    </nav>    
+        <div class="news-grid">
+            <article class="news-card fade-in" onclick="redirectTo('tech.html')">
+                <div class="card-image" style="background-image: url('https://picsum.photos/400/300?tech')"></div>
+                <div class="card-content">
+                    <span class="category tech">Technology</span>
+                    <h2>New Smartphone Innovation Revealed</h2>
+                    <p>Leading tech company announces revolutionary foldable screen technology...</p>
+                </div>
+            </article>
+            
+            <article class="news-card fade-in" onclick="redirectTo('sports.html')">
+                <div class="card-image" style="background-image: url('https://picsum.photos/400/300?sports')"></div>
+                <div class="card-content">
+                    <span class="category sports">Sports</span>
+                    <h2>Championship Finals Update</h2>
+                    <p>Unexpected results in the championship finals shock fans worldwide...</p>
+                </div>
+            </article>
+            
+            <article class="news-card fade-in" onclick="redirectTo('entertainment.html')">
+                <div class="card-image" style="background-image: url('https://picsum.photos/400/300?entertainment')"></div>
+                <div class="card-content">
+                    <span class="category entertainment">Entertainment</span>
+                    <h2>Award Show Highlights</h2>
+                    <p>Surprising winners and memorable moments from last night's ceremony...</p>
+                </div>
+            </article>
+            
+            <article class="news-card fade-in" onclick="redirectTo('business.html')">
+                <div class="card-image" style="background-image: url('https://picsum.photos/400/300?business')"></div>
+                <div class="card-content">
+                    <span class="category business">Business</span>
+                    <h2>Market Trends Analysis</h2>
+                    <p>Latest financial reports show promising growth in tech sector...</p>
+                </div>
+            </article>
+
+
+        </div>
+    </div>
+    
+    <a href="#top" class="float-button">↑</a>
+    
+    <script src="script.js"></script>
+       
+
+</body>
+</html>
