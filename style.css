@@ -3,6 +3,91 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Add these new styles */
+.ad-container {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 160px;
+    z-index: 1000;
+}
+
+.left-ad { left: 10px; }
+.right-ad { right: 10px; }
+
+.main-content {
+    margin: 0 180px; /* Adjust based on ad width */
+}
+
+/* Update news grid */
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+/* Mobile Responsive Fixes */
+@media (max-width: 1024px) {
+    .ad-container {
+        display: none;
+    }
+    
+    .main-content {
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2.5rem;
+    }
+    
+    .header p {
+        font-size: 1.2rem;
+    }
+    
+    .nav ul {
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+    
+    .nav ul li {
+        margin: 5px;
+        flex: 1 0 45%;
+        text-align: center;
+    }
+    
+    .nav ul li a {
+        padding: 8px 10px;
+        font-size: 0.9rem;
+        display: block;
+    }
+    
+    .news-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .card-image {
+        height: 180px;
+    }
+}
+
+/* Fix navbar DPI issues */
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav ul li a {
+    padding: 12px 15px;
+    font-size: 1.1rem;
+}
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
