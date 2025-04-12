@@ -1,103 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Jawa Terkini</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="script.js" defer></script>
-
-  <!-- ✅ Adsterra Native Banner -->
-  <script async="async" data-cfasync="false" src="//pl26357671.profitableratecpm.com/7eda0f50f29dccbcb01cc41cdbed9d95/invoke.js"></script>
-  <style>
-    #container-7eda0f50f29dccbcb01cc41cdbed9d95 {
-      width: 100%;
-      max-width: 728px;
-      height: 90px;
-      margin: 20px auto;
-      display: block;
-      background-color: #f3f3f3;
-    }
-
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    body {
-      padding-top: 80px; /* agar konten tidak ketabrak navbar */
-    }
-
-    header {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      background: #333;
-      color: white;
-      padding: 1rem;
-      z-index: 1000;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Athaa</title>
+    <link rel="stylesheet" href="style.css">
+  <script src="script.js"><script>
+  
+  <script type='text/javascript' src='//pl26353540.profitableratecpm.com/e1/ff/80/e1ff803e78af08897ac3e7202f0cf7e0.js'></script>
 </head>
 <body>
+    <header class="header">
+        <div class="header-content">
+            <h1>Jawa Terkini</h1>
+            <p>Berita di Jawa terupdate bjirr🔥</p>
+        </div>
+    </header>
+    
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="tech.html">Teknologi</a></li>
+            <li><a href="sports.html">Olahraga</a></li>
+            <li><a href="entertainment.html">Hiburan</a></li>
+        </ul>
+    </nav>    
+        <div class="news-grid">
+            <article class="news-card fade-in" onclick="redirectTo('tech.html')">
+                <div class="card-image" style="background-image: url('https://picsum.photos/400/300?tech')"></div>
+                <div class="card-content">
+                    <span class="category tech">Technology</span>
+                    <h2>New Smartphone Innovation Revealed</h2>
+                    <p>Leading tech company announces revolutionary foldable screen technology...</p>
+                </div>
+            </article>
+            
+            <article class="news-card fade-in" onclick="redirectTo('sports.html')">
+                <div class="card-image" style="background-image: url('https://picsum.photos/400/300?sports')"></div>
+                <div class="card-content">
+                    <span class="category sports">Sports</span>
+                    <h2>Championship Finals Update</h2>
+                    <p>Unexpected results in the championship finals shock fans worldwide...</p>
+                </div>
+            </article>
+            
+            <article class="news-card fade-in" onclick="redirectTo('entertainment.html')">
+                <div class="card-image" style="background-image: url('https://picsum.photos/400/300?entertainment')"></div>
+                <div class="card-content">
+                    <span class="category entertainment">Entertainment</span>
+                    <h2>Award Show Highlights</h2>
+                    <p>Surprising winners and memorable moments from last night's ceremony...</p>
+                </div>
+            </article>
+            
+            <article class="news-card fade-in" onclick="redirectTo('business.html')">
+                <div class="card-image" style="background-image: url('https://picsum.photos/400/300?business')"></div>
+                <div class="card-content">
+                    <span class="category business">Business</span>
+                    <h2>Market Trends Analysis</h2>
+                    <p>Latest financial reports show promising growth in tech sector...</p>
+                </div>
+            </article>
 
-  <header>
-    <div class="container">
-      <h1>Jawa Terkini</h1>
-      <p>Berita di Jawa terupdate bjirr🔥</p>
+
+        </div>
     </div>
-  </header>
-
-  <nav class="nav container">
-    <ul>
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="tech.html">Teknologi</a></li>
-      <li><a href="sports.html">Olahraga</a></li>
-      <li><a href="entertainment.html">Hiburan</a></li>
-    </ul>
-  </nav>
-
-  <!-- ✅ Adsterra banner visible -->
-  <div id="container-7eda0f50f29dccbcb01cc41cdbed9d95"></div>
-
-  <main class="container">
-    <div class="news-grid">
-      <!-- Berita 1 -->
-      <article class="news-card" onclick="redirectTo('tech.html')">
-        <div class="card-image" style="background-image: url('https://picsum.photos/400/300?tech')"></div>
-        <div class="card-content">
-          <span class="category tech">Technology</span>
-          <h2>New Smartphone Innovation Revealed</h2>
-          <p>Leading tech company announces revolutionary foldable screen technology...</p>
-        </div>
-      </article>
-
-      <!-- Berita 2 -->
-      <article class="news-card" onclick="redirectTo('sports.html')">
-        <div class="card-image" style="background-image: url('https://picsum.photos/400/300?sports')"></div>
-        <div class="card-content">
-          <span class="category sports">Sports</span>
-          <h2>Championship Finals Update</h2>
-          <p>Unexpected results in the championship finals shock fans worldwide...</p>
-        </div>
-      </article>
-
-      <!-- Berita 3 -->
-      <article class="news-card" onclick="redirectTo('entertainment.html')">
-        <div class="card-image" style="background-image: url('https://picsum.photos/400/300?entertainment')"></div>
-        <div class="card-content">
-          <span class="category entertainment">Entertainment</span>
-          <h2>Award Show Highlights</h2>
-          <p>Surprising winners and memorable moments from last night's ceremony...</p>
-        </div>
-      </article>
-    </div>
-  </main>
-
-  <!-- Popunder atau script iklan lain -->
-  <script type='text/javascript' src='//pl26353540.profitableratecpm.com/e1/ff/80/e1ff803e78af08897ac3e7202f0cf7e0.js'></script>
+    
+    <a href="#top" class="float-button">↑</a>
+    
+    <script src="script.js"></script>
+  <script async="async" data-cfasync="false" src="//pl26357671.profitableratecpm.com/7eda0f50f29dccbcb01cc41cdbed9d95/invoke.js"></script>
+<div id="container-7eda0f50f29dccbcb01cc41cdbed9d95"></div>
+       
 
 </body>
 </html>
