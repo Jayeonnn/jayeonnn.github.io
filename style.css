@@ -184,7 +184,21 @@ body {
     width: 80%;
     left: 10%;
 }
+/* Ensure the container is displayed as a block element */
+#container-7eda0f50f29dccbcb01cc41cdbed9d95 {
+    display: block; /* Make sure the container is a block element */
+    width: 100%; /* Full width of the parent */
+    max-width: 300px; /* Set a max width for the ad container */
+    aspect-ratio: 1 / 1; /* Maintain a 1:1 aspect ratio */
+    margin: 16px auto; /* Center the container with 16px margin */
+    overflow: hidden; /* Hide any overflow */
+}
 
+/* Optional: Style for the navbar to ensure it is above the ads */
+.navbar {
+    position: relative; /* Ensure the navbar is positioned correctly */
+    z-index: 10; /* Make sure the navbar is above the ads */
+}
 
 .news-grid {
     display: grid;
