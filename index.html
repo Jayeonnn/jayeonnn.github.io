@@ -1,19 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Athaa</title>
     <link rel="stylesheet" href="style.css">
-  <script src="script.js"><script>
-    
-  
-  <script type='text/javascript' src='//pl26353540.profitableratecpm.com/e1/ff/80/e1ff803e78af08897ac3e7202f0cf7e0.js'></script>
+    <script src="script.js" defer></script>
+    <script async type="text/javascript" src="//pl26353540.profitableratecpm.com/e1/ff/80/e1ff803e78af08897ac3e7202f0cf7e0.js"></script>
+    <script async data-cfasync="false" src="//pl26357671.profitableratecpm.com/7eda0f50f29dccbcb01cc41cdbed9d95/invoke.js"></script>
     <style>
-            img:is([sizes="auto" i], [sizes^="auto," i]) {
-                contain-intrinsic-size: 3000px 1500px
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header.header {
+            background-color: #34495e;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        nav.nav {
+            background-color: #2c3e50;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav.nav ul {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        nav.nav ul li {
+            margin: 0 4px;
+        }
+
+        nav.nav ul li a {
+            display: block;
+            padding: 0.75rem 1.25rem;
+            color: #ecf0f1;
+            text-decoration: none;
+            transition: background 0.3s ease, transform 0.3s ease;
+            border-radius: 4px;
+        }
+
+        nav.nav ul li a:hover {
+            background: #1abc9c;
+        }
+
+        nav.nav ul li a.active {
+            background: #1abc9c;
+        }
+
+        @media (max-width: 768px) {
+            nav.nav ul li a {
+                padding: 0.6rem 1rem;
             }
-        </style>
+            nav.nav ul li a:hover {
+                transform: none;
+            }
+        }
+
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .news-card {
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .news-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-image {
+            background-size: cover;
+            background-position: center;
+            height: 200px;
+        }
+
+        .card-content {
+            padding: 1rem;
+        }
+
+        .card-content .category {
+            font-size: 0.8rem;
+            font-weight: bold;
+            color: #888;
+            text-transform: uppercase;
+        }
+
+        .card-content h2 {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+
+        .card-content p {
+            color: #555;
+            font-size: 0.95rem;
+        }
+
+        .float-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #1abc9c;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 1.2rem;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+        }
+
+        img:is([sizes="auto" i], [sizes^="auto," i]) {
+            contain-intrinsic-size: 3000px 1500px;
+        }
+    </style>
 </head>
 <body>
     <header class="header">
@@ -22,7 +144,7 @@
             <p>Berita di Jawa terupdate bjirr🔥</p>
         </div>
     </header>
-    
+
     <nav class="nav">
         <ul>
             <li><a href="index.html" class="active">Home</a></li>
@@ -31,53 +153,38 @@
             <li><a href="entertainment.html">Hiburan</a></li>
         </ul>
     </nav>
-    <script async="async" data-cfasync="false" src="//pl26357671.profitableratecpm.com/7eda0f50f29dccbcb01cc41cdbed9d95/invoke.js"></script>
-<div id="container-7eda0f50f29dccbcb01cc41cdbed9d95"></div>
 
-        <div class="news-grid">
-            <article class="news-card fade-in" onclick="redirectTo('tech.html')">
-                <div class="card-image" style="background-image: url('https://picsum.photos/400/300?tech')"></div>
-                <div class="card-content">
-                    <span class="category tech">Technology</span>
-                    <h2>New Smartphone Innovation Revealed</h2>
-                    <p>Leading tech company announces revolutionary foldable screen technology...</p>
-                </div>
-            </article>
-            
-            <article class="news-card fade-in" onclick="redirectTo('sports.html')">
-                <div class="card-image" style="background-image: url('https://picsum.photos/400/300?sports')"></div>
-                <div class="card-content">
-                    <span class="category sports">Sports</span>
-                    <h2>Championship Finals Update</h2>
-                    <p>Unexpected results in the championship finals shock fans worldwide...</p>
-                </div>
-            </article>
-            
-            <article class="news-card fade-in" onclick="redirectTo('entertainment.html')">
-                <div class="card-image" style="background-image: url('https://picsum.photos/400/300?entertainment')"></div>
-                <div class="card-content">
-                    <span class="category entertainment">Entertainment</span>
-                    <h2>Award Show Highlights</h2>
-                    <p>Surprising winners and memorable moments from last night's ceremony...</p>
-                </div>
-            </article>
-            
-            <article class="news-card fade-in" onclick="redirectTo('business.html')">
-                <div class="card-image" style="background-image: url('https://picsum.photos/400/300?business')"></div>
-                <div class="card-content">
-                    <span class="category business">Business</span>
-                    <h2>Market Trends Analysis</h2>
-                    <p>Latest financial reports show promising growth in tech sector...</p>
-                </div>
-            </article>
+    <div id="container-7eda0f50f29dccbcb01cc41cdbed9d95"></div>
 
+    <div class="news-grid">
+        <article class="news-card" onclick="redirectTo('tech.html')">
+            <div class="card-image" style="background-image: url('https://picsum.photos/400/300?tech')"></div>
+            <div class="card-content">
+                <span class="category tech">Technology</span>
+                <h2>New Smartphone Innovation Revealed</h2>
+                <p>Leading tech company announces revolutionary foldable screen technology...</p>
+            </div>
+        </article>
 
-        </div>
-    </div>
-    
-    <a href="#top" class="float-button">↑</a>
-    
-    <script src="script.js"></script>
+        <article class="news-card" onclick="redirectTo('sports.html')">
+            <div class="card-image" style="background-image: url('https://picsum.photos/400/300?sports')"></div>
+            <div class="card-content">
+                <span class="category sports">Sports</span>
+                <h2>Championship Finals Update</h2>
+                <p>Unexpected results in the championship finals shock fans worldwide...</p>
+            </div>
+        </article>
 
-</body>
-</html>
+        <article class="news-card" onclick="redirectTo('entertainment.html')">
+            <div class="card-image" style="background-image: url('https://picsum.photos/400/300?entertainment')"></div>
+            <div class="card-content">
+                <span class="category entertainment">Entertainment</span>
+                <h2>Award Show Highlights</h2>
+                <p>Surprising winners and memorable moments from last night's ceremony...</p>
+            </div>
+        </article>
+
+        <article class="news-card" onclick="redirectTo('business.html')">
+            <div class="card-image" style="background-image: url('https://picsum.photos/400/300?business')"></div>
+            <div class="card-content">
+                <span class="category business">Business</span>
